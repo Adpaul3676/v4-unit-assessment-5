@@ -103,6 +103,7 @@ class Dash extends Component {
           {!loading
             ?
             mappedPosts
+            // <div></div>
             :
             <div className='load-box'>
               <div className='load-background'></div>
@@ -120,3 +121,4 @@ function mapStateToProps(state) {
 }
 
 export default connect(mapStateToProps)(Dash);
+// export default Dash;
