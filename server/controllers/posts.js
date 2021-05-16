@@ -56,4 +56,4 @@ module.exports = {
       req.app.get('db').post.delete_post(req.params.id)
         .then(_ => res.sendStatus(200))
     }
-  }
+  } 

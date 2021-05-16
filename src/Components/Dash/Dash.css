@@ -39,3 +39,34 @@
 .dash-post-box > h3 {
   font-size: 30px;
 }
+
+@media (max-width: 650px) {
+  .dash-filter {
+    height: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    width: 100%;
+  }
+
+  .dash-check-box {
+    flex-direction: row;
+    margin-left: 20px;
+  }
+
+  .dash-search-bar {
+    width: 20vw;
+  }
+
+  .dash-post-box {
+    width: 85%;
+  }
+
+  .dash-posts-container {
+    width: 100%;
+  }
+
+  .author-box {
+    font-size: .5em;
+  }
+}
